@@ -1,0 +1,33 @@
+{
+  "name": "samplebot",
+  "version": "1.0.0",
+  "description": "A slackbot & rest api playing a sound depending on a transmitted message.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "file-type": "^4.1.0",
+    "glob": "^7.1.1",
+    "play-sound": "^1.1.1",
+    "read-chunk": "^2.0.0",
+    "slackbots": "^1.0.2",
+    "url-regex": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/acolono/samplebot.git"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "Oliver Koehler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acolono/samplebot/issues"
+  },
+  "homepage": "https://github.com/acolono/samplebot#readme"
+}
